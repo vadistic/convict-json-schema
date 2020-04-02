@@ -1,1 +1,7 @@
-{}
+{
+  "something": {
+    "env": "SOMETHING",
+    "default": "abc",
+    "format": "string"
+  }
+}

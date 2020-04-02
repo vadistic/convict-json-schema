@@ -1,3 +1,7 @@
-export const config = {
-  env: 'production',
+export const schema = {
+  something: {
+    env: 'SOMETHING',
+    default: 'abc',
+    format: String,
+  },
 }
